@@ -1,0 +1,5 @@
+org\jorgeperalta\webapp\model\Juego.class
+org\jorgeperalta\webapp\service\IJuegoService.class
+org\jorgeperalta\webapp\service\JuegoService.class
+org\jorgeperalta\webapp\servlet\JuegoServlet.class
+org\jorgeperalta\webapp\util\JPAUtil.class
