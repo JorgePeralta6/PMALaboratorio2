@@ -45,8 +45,8 @@
                     <label for="nombreJuego">Nombre del Juego</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control"o id="marcaJuego" name="marcaJuego" placeholder="">
-                    <label for="marcaJuego">Marca del Juego</label>
+                    <input type="text" class="form-control"o id="plataformaJuego" name="plataformaJuego" placeholder="">
+                    <label for="plataformaJuego">Plataforma del Juego</label>
                 </div>  
                 <div class="input-group mb-3">
                     <span class="input-group-text">$</span>

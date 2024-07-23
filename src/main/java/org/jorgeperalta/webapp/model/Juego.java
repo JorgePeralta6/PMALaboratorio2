@@ -15,22 +15,22 @@ public class Juego {
     
     private int juegoId;
     private String nombreJuego;
-    private String marcaJuego;
+    private String plataformaJuego;
     private double precio;
 
     public Juego() {
     }
 
-    public Juego(String nombreJuego, String marcaJuego, double precio) {
+    public Juego(String nombreJuego, String plataformaJuego, double precio) {
         this.nombreJuego = nombreJuego;
-        this.marcaJuego = marcaJuego;
+        this.plataformaJuego = plataformaJuego;
         this.precio = precio;
     }
 
-    public Juego(int juegoId, String nombreJuego, String marcaJuego, double precio) {
+    public Juego(int juegoId, String nombreJuego, String plataformaJuego, double precio) {
         this.juegoId = juegoId;
         this.nombreJuego = nombreJuego;
-        this.marcaJuego = marcaJuego;
+        this.plataformaJuego = plataformaJuego;
         this.precio = precio;
     }
 
@@ -50,12 +50,12 @@ public class Juego {
         this.nombreJuego = nombreJuego;
     }
 
-    public String getMarcaJuego() {
-        return marcaJuego;
+    public String getPlataformaJuego() {
+        return plataformaJuego;
     }
 
-    public void setMarcaJuego(String marcaJuego) {
-        this.marcaJuego = marcaJuego;
+    public void setPlataformaJuego(String plataformaJuego) {
+        this.plataformaJuego = plataformaJuego;
     }
 
     public double getPrecio() {
@@ -68,7 +68,7 @@ public class Juego {
 
     @Override
     public String toString() {
-        return "Juego{" + "juegoId=" + juegoId + ", nombreJuego=" + nombreJuego + ", marcaJuego=" + marcaJuego + ", precio=" + precio + '}';
+        return "Juego{" + "juegoId=" + juegoId + ", nombreJuego=" + nombreJuego + ", plataformaJuego=" + plataformaJuego + ", precio=" + precio + '}';
     }
     
     

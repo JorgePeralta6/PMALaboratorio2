@@ -40,6 +40,28 @@
         <div class="container d-flex justify-content-center">
             <h1 class="display-5 text-center">Increibles Videojuegos</h1>
         </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/image/Smash.png" class="d-block w-50 mx-auto" alt="Smash">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image/Godofwar.png" class="d-block w-50 mx-auto" alt="God of War">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image/Halo.png" class="d-block w-50 mx-auto" alt="Halo">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
+

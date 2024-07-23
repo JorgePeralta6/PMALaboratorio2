@@ -38,12 +38,12 @@
             </div>
         </nav>
         <div class="container position-relative mt-5"> 
-            <table class="table table-bordered border-primary">
+           <table class="table table-success table-striped">
                 <thead>
                     <tr>
                         <th scope="col">No. juego#</th>
                         <th scope="col">Nombre</th>
-                        <th scope="col">Marca</th>
+                        <th scope="col">Plataforma</th>
                         <th scope="col">Precio</th>
                     </tr>
                 </thead>
@@ -51,10 +51,10 @@
                     <% List<Juego> juegos = (List)request.getAttribute("juegos");%>
                     
                     <%for(Juego juego:juegos){ %>
-                    <tr>
+                    <tr class="table-success">
                         <th scope="row"><%=juego.getJuegoId()%></th>
                         <th scope="row"><%=juego.getNombreJuego()%></th>
-                        <th scope="row"><%=juego.getMarcaJuego()%></th>
+                        <th scope="row"><%=juego.getPlataformaJuego()%></th>
                         <th scope="row"><%=juego.getPrecio()%></th>
                     </tr>
                       <%  } %>

@@ -43,10 +43,10 @@ public class JuegoServlet extends HttpServlet {
 
     public void agregarJuego(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String nombre = req.getParameter("nombreJuego");
-        String marca = req.getParameter("marcaJuego");
+        String plataforma = req.getParameter("plataformaJuego");
         double precio = Double.parseDouble(req.getParameter("precio"));
 
-        juegoService.agregarJuego(new Juego(nombre, marca, precio));
+        juegoService.agregarJuego(new Juego(nombre, plataforma, precio));
 
         resp.sendRedirect(req.getContextPath() + "/");
     }
